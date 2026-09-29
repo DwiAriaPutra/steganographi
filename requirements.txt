@@ -1,0 +1,15 @@
+# Dependensi runtime Steganography Analyzer
+#
+#   python -m venv .venv
+#   .venv/bin/pip install -r requirements.txt
+#
+# Butuh Python 3.12.
+# tkinter berasal dari stdlib, tetapi di Linux harus dipasang
+# sebagai paket sistem terpisah:
+#
+#   Debian/Ubuntu : sudo apt install python3-tk
+#   Fedora        : sudo dnf install python3-tkinter
+#   Arch          : sudo pacman -S tk
+
+pillow==12.3.0
+cryptography==50.0.1
